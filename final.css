@@ -1,0 +1,27 @@
+body{
+    background-image: url(./1847.jpg);
+    background-repeat: no-repeat;
+    height: 710px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+h1{
+    text-align: center;
+    padding-top: 300px;
+    background-color: beige;
+    background-color: rgba(0,0,0,0.1);
+}
+p{
+    text-align: center;
+}
+
+a{
+   text-decoration: none;
+   font-size: larger;
+   background-color: aliceblue;
+   font-weight: bolder;
+   color: black;
+   padding: 10px;
+}
+
