@@ -1,0 +1,56 @@
+body{
+    background-image: url(./1847.jpg);
+    background-repeat: no-repeat;
+    height: 710px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.g{
+    border-radius: 50%;
+}
+@keyframes example{
+  0%   {color:red; left:0px; top:0px;}
+  25%  {color:rgb(140, 66, 158); left:200px; top:0px;}
+  100% {color:green; left:0px; top:0px;}
+}
+
+@keyframes examp{
+    0%   {color:green; left:0px; top:0px;}
+    25%  {color:rgb(0, 255, 191); left:-200px; top:0px;}
+    100% {color:red; left:0px; top:0px;}
+  }
+
+ @keyframes exa{
+    0%   {color:green;}
+    25%  {color:yellow;}
+    50% {color: dodgerblue;}
+    100% {color:rgb(176, 124, 124);}
+  }
+
+
+
+.r{
+  font-size:xx-large;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.p{
+  font-size:xx-large;
+  position: relative;
+  animation-name: exa;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.s{
+  font-size:xx-large;
+  position: relative;
+  animation-name: examp;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+

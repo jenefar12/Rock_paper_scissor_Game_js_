@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPS Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+
+
+
+    <section class="container-fluid">
+        <section class="row mt-5">
+            <h1 class="text-center fw-bolder">AstroPlay</h1>
+            <section class="col-11 bg-white bg-opacity-50 m-auto">
+                <section class="d-flex justify-content-between">
+                    <h3 class="text-danger fw-bolder"><i class="fa-solid fa-computer"></i>: <span id="c_score">0</span></h3>
+                    <h3 class="text-info fw-bolder"><i class="fa-solid fa-user"></i>: <span id="u_score">0</span></h3>
+                </section>
+                <section class="row mt-5">
+                    <section class="col-12 bg-white bg-opacity-25  d-flex flex-column align-items-center gap-3 mt-5 py-4">
+                        <section>
+                            <h1>Computer Choice: <span id="c_choice"></span></h1>
+                            <h1>User Choice: <span id="u_choice"></span></h1>
+                            <h1>Result: <span id="result"></span></h1>
+                        </section>
+                        <section>
+                            <section class="d-flex gap-5">
+                                <p class="r g"><i class="fa-regular fa-hand-scissors "></i></p>
+                                <p class="p g"><i class="fa-regular fa-hand"></i></p>
+                                <p class="s g"><i class="fa-solid fa-hand-fist"></i></p>
+                            </section>
+        
+                        </section>
+                        <section class="d-flex gap-5">
+                            <button class="btn btn-outline-dark" id="rock">Rock</button>
+                            <button class="btn btn-outline-dark" id="paper">Paper</button>
+                            <button class="btn btn-outline-dark" id="scissor">Scissor</button>
+                        </section>
+                    </section>
+                </section>
+                
+            </section>
+        </section>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
